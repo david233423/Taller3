@@ -80,7 +80,7 @@ a:hover {
     display: -ms-inline-flexbox;
     display: inline-flex;
     align-items: center;
-    background-color: white;
+    background-color: #66D481;
     color: #000000;
   }
   .btn:hover{  

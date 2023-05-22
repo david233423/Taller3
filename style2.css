@@ -178,7 +178,7 @@ display: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: white;
+  background-color: #66d481;
   color: #000000;
 }
 .btn:hover{  
