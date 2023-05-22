@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario icfes </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"type="text/css" href="style3.css">
+</head>
+<body>
+    <form>
+        <table  style="width: 100%;" >
+            <tr>
+                <td colspan="3" bgcolor="#6052E6"></td>
+            </tr>
+
+            <tr>
+                <th> <label for="icfes" id="icfes">icfes <i class="fa fa-check" aria-hidden="true"></i> </label></th>
+                <th> <label for="min" id="min"> <i class="fa fa-users" aria-hidden="true"></i>MinEducación </label></th>
+                <th> <label for="pros" id="pros">Sistema Prisma *</label></th>
+                
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="#6052E6"></td>
+            </tr>
+        </table>
+        <br>
+
+        <table  style="width: 100%;"> 
+            <tr>
+                <td bgcolor="#6052E6"> <strong>Datos personales</strong></td>
+            </tr>
+
+            <tr>
+                <td><label for="nombre">Primer Nombre*:</label> <input type="text" id="nombre" placeholder="Escriba su primer nombre"> 
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="nombre2">Segundo Nombre*:</label> <input type="text" id="nombre2" placeholder="Escriba su segundo nombre"> <br> <br>
+                    <label for="apellido">Primer Apellido*:</label> <input type="text" id="apellido" placeholder="Escriba su primer apellido">
+                    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="apellido2">Segundo Apellido*:</label> <input type="text" id="apellido2" placeholder="Escriba su segundo apellido">
+                </td>
+                <br>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                <label >Tipo de documento:</label> 
+                <label for="ti">Ti</label>
+                <input type="checkbox" id="ti" name="tipo">
+                <label for="cc">Cc</label>
+                <input type="checkbox" id="cc" name="tipo">
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="documento">Número de documento de identidad*</label> <input type="text" id="documento" placeholder="Numero de documento">
+                <br> <br>
+                <label for="pais">Pais* <label for="paisre" id="preside">(Pais de expedicion de documento de identidad )</label>: </label> <input type="text" id="paisr" placeholder="Ingrese pais donde reside"> <br>
+                <br>
+                <label >Género:</label> 
+                <label for="femenimo">Femenino</label>
+                <input type="checkbox" id="femenino">
+                <label for="masculino">Masculino</label>
+                <input type="checkbox" id="masculino"> 
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="fecha">Fecha de Nacimiento*:</label> <input type="date" id="fecha"><br> <br>
+                <label for="etnia">Etnia* <label for="etniar" id="preside">(Etnia a la que pertenece - Tabla 2)</label>: </label> <input type="text" id="pais" placeholder="Ingrese etnia al que pertenece"> <br>
+
+            </td>
+             
+            </tr>
+        </table>
+        <br>
+        <table style="width: 100%;" bgcolor="#8ACE46">
+            <tr>
+                <td colspan="5"> Tabla 2 <label for="etnia" id="preside">Escriba la etnia a la que pertenece, o ninguna</label> </td>
+            </tr>
+            <tr>
+                <td> <ul>
+                    <li>Arhuaco</li>
+                    <li>Cancuamo</li>
+                    <li>Comunidad <br> Afrodecendiente</li>
+                </ul></td>
+
+                <td> <ul>
+                    <li>Comunidad Rom</li>
+                    <li>Cubeo</li>
+                    <li>Guambiano</li>
+                </ul></td>
+
+                <td> <ul>
+                    <li>Inga</li>
+                    <li>Huitoto</li>
+                    <li>Paez</li>
+                </ul></td>
+
+                <td> <ul>
+                    <li>Pasto</li>
+                    <li>Raizal o palenquero</li>
+                    <li>Pijao</li>
+                </ul></td>
+
+                <td> <ul>
+                    <li>Tucano</li>
+                    <li>Ninguno</li>
+                    <li>Otro </li>
+                </ul></td>
+            </tr>
+            
+        </table>
+<br>
+        <table  style="width: 100%;"> 
+            <tr>
+                <td bgcolor="#6052E6"> <strong>Discapacidades</strong></td>
+            </tr>
+            <tr>
+                <td> <label for="disc" id="disca">¿Tiene alguna discapacidad?*:</label> 
+                    <input type="radio" id="nod" name="discapacidad">
+                    <label for="nod">No</label>
+                    <input type="radio" id="sid" name="discapacidad">
+                    <label for="sid">Si</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="nota" id="nota">¿Cual? <input type="text" id="discapa" placeholder="Ingrese discapacidad"></label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table  style="width: 100%;"> 
+            <tr>
+                <td bgcolor="#6052E6"> <strong>Datos de Contacto</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="depto">Departamento*:</label> <input type="text" placeholder="Ingrese departamento">
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="mcipio">Municipio*:</label> <input type="text" placeholder="Ingrese municipio">
+                    <br><br>
+                    <label for="reside">Zona donde se ubica su residencia actual*:</label>
+                    <select id="reside">
+                        <option disabled selected> Escoja una opcion</option>
+                        <option>Norte</option>
+                        <option>Oriente</option>
+                        <option>Occidente</option>
+                        <option>Sur</option>
+                        <option>Centro</option>
+                        <option>Nororiente</option>
+                        <option>Suroriente</option>
+                        <option>Noroccidente</option>
+                        <option>Suroccidente</option>
+                    </select>
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="dir">Dirección*:</label> <input type="text" id="dir" placeholder="Ingrese dirección">
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="cel">Cel*:</label> <input type="number" id="cel" placeholder="Ingrese numero de celular">
+                    <br><br>
+                    <label for="sms">¿Autoriza el envio a su celular de mensajes SMS con relación al examen?*:</label>
+                    <input type="radio" id="nom" name="sms">
+                    <label for="nom">No</label>
+                    <input type="radio" id="sim" name="sms">
+                    <label for="sim">Si</label>
+                    <br><br>
+                    <label for="area">Área de residencia*:</label>
+                    <select id="area">
+                        <option disabled selected> Escoja una opcion</option>
+                        <option>Urbana</option>
+                        <option>Rural</option>
+                    </select>
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="correo">Correo electrónico*:</label> <input type="email" id="email" placeholder="Ingrese correo electrónico">
+                </td>
+            </tr>
+        </table>
+<br>
+        <table  style="width: 100%;"> 
+            <tr>
+                <td bgcolor="#6052E6"> <strong>Datos de Citación a Examen</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="m">Municipio de preentación del examen:</label> <br><br>
+                    <label for="dep">Departamento*:</label> <input type="text" id="dep" placeholder="Ingrese departamento">
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="mcipio">Municipio*:</label> <input type="text" id="mcipio" placeholder="Ingrese municipio">
+                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="reside">¿Confirma que este es el sitio donde presentara el examen*:</label>
+                    <input type="radio" id="no" name="sms">
+                    <label for="no">No</label>
+                    <input type="radio" id="si" name="sms">
+                    <label for="si">Si</label>
+                </td>
+            </tr>
+
+        </table>
+        <br><br>
+        <button type="reset" id="limpiar">Limpiar</button>
+        <button type="button" id="registrar">Registrar</button>
+    </form>
+</body>
+        
+        
+        

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icfes</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pag.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pag2.html">Opina</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="one" id="icfes">icfes <i class="fa fa-check" aria-hidden="true"></i></div> 
+        <div class="three" id="b">|</div>
+        <div class="two" id="min">
+          <label id="minis"><i class="fa fa-users" aria-hidden="true"></i>Ministerio de Educación <br> &nbsp;&nbsp;&nbsp;&nbsp; Nacional</label>
+        </div>
+        
+      </div>
+      <br> 
+      <div class="row" id="pri">
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary" id="liveToastBtn">Incripciones</button>
+    
+        <div class="toast-container position-fixed bottom-0 end-0 p-3" >
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.dxU9mkOxcOqSI6KNrvK0WAHaCh&pid=Api&rs=1&c=1&qlt=95&w=285&h=96" class="rounded me-2" alt="...">
+              <strong class="me-auto"></strong>
+              <small></small>
+              
+            </div>
+            <div class="toast-body">
+              Incripciones abiertas.
+            </div>
+          </div>
+        </div>
+        </div>
+    
+        <div class="col-md-4">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Acerca de nosotros</button>
+    
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Creadores</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+               <label id="nom">David Andres Alvear Gomez</label> 
+                 <div>
+                  <img src="image1.jpg" alt="" id="foto">
+                 </div>
+                 <label id="ude">Ingeniero de sistemas</label> <br> <br> 
+                 <div>
+                  <img src="http://www.udenar.edu.co/recursos/wp-content/uploads/2018/02/logo-universidad-de-narino-udenar-periodico.jpg" alt="" id="logo">
+                 </div>
+              </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary position-relative" id="inbox">
+            Inbox
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+        </div>
+      </div>
+      <br>
+
+  <div class="row">
+    <div class="col-md-2"> 
+    </div>
+    <div class="col-md-8" id="carro">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.icfes.gov.co/documents/39286/2163507/Pro+TyT+2%C2%B0SEM.png/aaf5e6e6-9f83-7f92-01a6-b12ad99d43b3?t=1682689209422&download=true" class="d-block w-100" alt="..." id="im">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.icfes.gov.co/documents/39286/2163507/Banner-3579+%281%29.png/e9ff6e9b-82c5-f3a3-de51-18461051f075?t=1680020770665&download=true" class="d-block w-100" alt="..." id="im">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.icfes.gov.co/documents/39286/2163507/Banner_ExA_20230322.png/fe45e016-3def-991f-103c-21e34589b2d0?t=1679495547529&download=true" class="d-block w-100" alt="..." id="im">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" id="car">
+        <img src="https://www.elheraldo.co/sites/default/files/articulo/2019/08/09/4a-icfes_0.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+      
+        <div class="card-body">
+          <h5 class="card-title">Presentacion examen</h5>
+          <p class="card-text">El Icfes les recuerda a las instituciones educativas y estudiantes individuales realizar el proceso de inscripción y pago de manera oportuna.</p>
+          <a href="icfes.html" id="bo" class="btn btn-primary">inscribirme</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" id="car">
+        <img src="https://www.icfes.gov.co/documents/39286/469458/IMG_0965.jpg/33a7aa98-8ade-2772-c9f7-425d5a0737f0?t=1683932427970" class="card-img-top" alt="Fissure in Sandstone"/>
+      
+        <div class="card-body">
+          <h5 class="card-title">Icfes amplía plazo para inscripciones a los exámenes de Estado Saber 11 calendario A</h5>
+          <p class="card-text">12 de mayo de 2023 Ante la solicitud de algunas Entidades Territoriales Certificadas (ETC)...</p>
+          <a href="#" id="bo" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="col-md-4">
+      <div class="card" id="car">
+        <img src="https://telemedellin.tv/wp-content/uploads/2020/04/ICFES.jpg " id="imf" class="card-img-top" alt="Fissure in Sandstone"/>
+      
+        <div class="card-body">
+          <h5 class="card-title"> Icfes abre proceso de preinscripción a las pruebas Saber Pro y Saber TyT</h5>
+          <p class="card-text">Las Instituciones de Educación Superior deberán prerregistrar a los estudiantes que hayan cumplido al menos el 75% de su programa académico.</p>
+          <a href="icfes.html" id="bo" class="btn btn-primary">inscribirme</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br>  
+
+  <div class="container" id="cont">
+    <div class="card" style="background: #32EFFC;">
+      <label id="ic">Apuntes del icfes</label> 
+      <label id="elem">Para la política educativa. <br>
+      A partir de los datos de las diferentes  pruebas y exámenes buscamos medir  el desarrollo estudiantil.</label> 
+      <button type="button" class="btn btn-primary" id="bo">Consulta los documentos</button>
+    </div>
+    <div class="card" style="background: #FFAE14;">
+      <label id="ic">preSaber</label> 
+      <label id="elem">¡Toma la delantera y sácala del estadio! <br>
+        Entrénate con  nuestro Preicfes y obtén los mejores resultados en el examen Saber 11°.</label> 
+      <button type="button" class="btn btn-primary" id="bo">Conoce mas sobre esta prueba</button>
+    </div>
+    <div class="card" style="background: #26D123;">
+      <label id="ic" >Ponte a prueba</label> 
+      <label id="elem">¡Prepárate y ve a la fija! <br>
+        Herramientas gratuitas que te ayudarán a obtener un alto puntaje y fortalecer tu conocimiento. 
+      </label> 
+      <button type="button" class="btn btn-primary" id="bo">Ver las cajas de herramientas</button>
+    </div>
+
+  </div>
+  <br> <br>
+  <div class="card-front">
+    <div class="center-wrap">
+      <div class="section text-center">
+        <h4 id="azul">Instituto Colombiano para la Evaluación de la Educación - ICFES </h4> <br>
+        <p>
+          Dirección: Calle 26 No.69-76, Torre 2, Piso 16, Edificio Elemento, Bogotá - Cundinamarca. Código Postal: 111071 <br>
+          Horario de atención presencial: Lunes a Viernes 08:00 am - 04:00 pm. Jornada contínua. <br>
+          Télefono conmutador: +57 601 5144370 <br>
+          Línea de atención al ciudadano: +57 601 5144370 <br>
+          Horario de atención teléfonica: Lunes a Viernes 07:00 am - 07:00 pm. Jornada contínua.  <br>
+          Horario de radicación de correspondencia: Lunes a Viernes 08:00 am - 05:00 pm. Jornada contínua. <br>
+          Línea anticorrupción: <a class="fcc-btn" href="https://www.freecodecamp.org/">soytransparente@icfes.gov.co</a> <br>
+          Correo solicitudes de información: <a class="fcc-btn" href="https://www.freecodecamp.org/">solicitudesinformacion@icfes.gov.co</a> <br>
+          Correo de notificaciones judiciales: <a class="fcc-btn" href="https://www.freecodecamp.org/">notificacionesjudiciales@icfes.gov.co</a> <br>
+          <br>         
+                                                                         
+          <a class="fcc-btn"  href="https://twitter.com/icfescol?lang=es">  <i class="fa fa-twitter" aria-hidden="true"></i> @ICFEScol</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="fcc-btn"  href="https://www.instagram.com/icfescol/"> <i class="fa fa-instagram" aria-hidden="true"></i> @ICFEScol</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="fcc-btn"  href="https://www.facebook.com/icfescol/?ref=br_rs"> <i class="fa fa-facebook" aria-hidden="true"></i> @ICFEScol</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="fcc-btn"  href="https://www.youtube.com/channel/UCfKOJWvJ1QXrAp6pCG0pUFw"> <i class="fa fa-youtube" aria-hidden="true"></i> @ICFEScol</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="fcc-btn"  href="https://www.linkedin.com/company/icfes/?originalSubdomain=co"> <i class="fa fa-linkedin" aria-hidden="true"></i> @ICFEScol</a>
+        </p>
+       </div>
+    </div>
+  </div>
+ <script src="cid.js"></script>
+</body>
+  
+</html>
