@@ -233,3 +233,7 @@ display: none;
   z-index: 20;
   display: block;
 }
+
+#modal{
+  margin-left: 750px;
+}

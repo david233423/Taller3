@@ -13,3 +13,4 @@ const offcanvasElementList = document.querySelectorAll('.offcanvas')
 const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
 
 const carousel = new bootstrap.Carousel('#myCarousel')
+const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
